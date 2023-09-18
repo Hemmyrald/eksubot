@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Page Title -->
+    <title>Home  |Ekiti Sate University Portal</title>
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="eksu.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="newlogo">
+            <img src="standalone-frontend/images/newllogo.png" alt="">
+        </div>
+        <div class="contact">
+            <span>
+                <i class="fa-solid fa-square-phone icon"></i>
+            </span>
+            <div class="contact-phone">
+                <div class="phone">
+                <a href="#" class="muted-text">CALL US FOR MORE DETAILS</a>
+                <p class="phone-number1">
+                +234 812 948 8304-Portal Team
+                </p>
+                <p class="phone-number2">
+                +234 814 470 0814- Bursary
+                </p>
+                </div>
+            </div>
+            <span class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </span>
+            <div class="contact-mail">
+                <a href="#" class="muted-text">MAIL US TODAY</a>
+                    <p class="portal">portals.helpdesk@eksu.edu.ng</p>
+                    <p class="admission">admissions.office@eksu.edu.ng</p>
+            </div>
+        </div>
+
+    </header>
+        <!-- Navigation Menu -->
+    <nav>
+        <ul class="menu">
+            <li class="home"><a href="" class="active">HOME</a></li>
+            <li class="payment"><a href="">FEES PAYMENT</a></li>
+
+            <div class="dropdown">
+            <button onclick="myfunction()" class="dropbtn">STUDENTS <i class="fa-solid fa-caret-down"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="./sign-in.html">Student Login</a>
+                </div>
+
+            <button onclick="myFunction()" class="dropbtn1">STAFF <i class="fa-solid fa-caret-down"></i></button>
+                <div id="myDropdown1" class="dropdown-content1">
+                    <a href="">Staff Login</a>
+                </div>
+                
+            <button onclick="dropfunction()" class="dropbtn2" >ADMISSION <i class="fa-solid fa-caret-down"></i></button>
+                <div id="Dropdown" class="dropdown-content2">
+                    <a href="">Apply for Admission</a>
+                    <a href="">Check Admission Status</a>
+                    <a href="">Admission Requirement</a>                    
+                </div>
+            </div>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">CONTACT US</a></li>
+            <!-- Close Button Icon -->
+        </ul>
+
+        <div class="navbar-toggle" id="close-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <!-- Form -->
+        <form action="">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </form>
+
+    </nav>
+            <!-- Slide Container -->
+    <section class="slideshow-container">
+            <div class="mySlides fade">
+        <img src="standalone-frontend/images/Landing-page-eksu-1-2048x1152.jpg">
+            <div class="text">
+                <h1>WELCOME TO THE <span class="danger">UNIVERSITY PORTAL</span></h1>
+                <h5 class="text-b">2022/2023 POST UTME APPLICATION IS OUT, CLICK THE LINK BELOW TO APPLY</h5>
+            </div>
+            <div class="btn">
+                <button class="utme">POST UTME APPLICATION</button>
+                <button class="application">CONTINUE APPLICATION</button>
+            </div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="standalone-frontend/images/display2.jpg" class="display">
+        <div class="text"><h1>COME TO OUR <span class="danger">OPEN DAY</span></h1></div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    </section>
+
+    <section class="section-content">
+        <div class="student-login">
+            <a href=""></a>
+            <i class="fa fa-users text-white"></i>
+            <a href="./sign-in.html">Student Login</a>
+        </div>
+        <div class="staff-login">
+            <a href=""></a>
+            <i class="fa fa-user text-white"></i>
+            <a href="">Staff Login</a>
+        </div>
+        <div class="admission">
+            <a href=""></a>
+            <i class="fa fa-book text-white"></i>
+            <a href="">Admission</a>
+        </div>
+        <div class="check-admission">
+            <a href=""></a>
+            <i class="fa fa-mortar-board text-white"></i>
+            <a href="">Check Admission</a>
+        </div>
+    </section>
+    
+            <!-- Section Two -->
+    <section class="portal-services">
+        <div class="sub-services">
+            <div class="certificate">
+                <i class="fa-solid fa-laptop"></i>
+                <a href="">
+                <h3>Transcript/Certificate</h3>
+                <p class="muted-text">Apply for Transcript/Certificate</p>
+                </a>
+            </div>
+            <div class="lecture">
+                <i class="fa-solid fa-laptop"></i>
+                <a href="">
+                <h3>Virtual Learning</h3>
+                <p class="muted-text">Attend Online Lecture</p>
+                </a>
+            </div>
+            <div class="e-learning">
+                <i class="fa-solid fa-book"></i>
+                <a href="">
+                <h3>E-Learning</h3>
+                <p class="muted-text">Download lecture materials</p>
+                </a>
+            </div>
+            <div class="online-payment">
+                <a href="">
+                <h3>Online Payment</h3>
+                <p class="muted-text">Pay Fees Online</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+                <!-- Help Desk Section -->
+    <section class="help-desk">
+        <div class="help-desk-heading">
+            <h3>HELP<span class="danger"> DESK</span></h3>
+            <hr class="line-thru">
+            <hr class="line-thro">
+        </div>
+
+        <div class="help-desk-content">
+            <div class="student-complaint">
+                <i class="fa-solid fa-user"></i>
+                <h4>STUDENTS COMPLAINTS</h4>
+                <div class="phone-icon">
+                <i class="fa-solid fa-phone"></i>08129488304 <br>
+                <i class="fa-solid fa-phone"></i>08034620164 <br>
+                <i class="fa-solid fa-phone"></i>08029898986
+                </div>
+            </div>
+            <div class="staff-complaint">
+                <i class="fa-solid fa-comments"></i>
+                <h4>STAFF COMPLAINTS</h4>
+                    <div class="phone-icon">
+                    <i class="fa-solid fa-phone"></i>08129488304
+                    </div>
+            </div>
+            <div class="bursary-complaint">
+                <i class="fa-solid fa-money-bill-1"></i>
+                <h4>BURSARY COMPLAINTS</h4>
+                    <div class="phone-icon">
+                    <i class="fa-solid fa-phone"></i>08144700814
+                    </div>
+            </div>
+            <div class="admission-enquiry">
+                <i class="fa fa-mortar-board"></i>
+                <h4>ADMISSION</h4>
+                    <div class="phone-icon">
+                    <i class="fa fa-phone"></i>09081704494
+                    </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="chatbox">
+                <!-- BUTTONS -->
+             <div class="btns">
+                <!-- BUTTON 1 -->
+                <div class="btn-1">
+                    <button class="btn-one">CHAT</button>    
+                </div>
+                <!-- BUTTON 2 -->
+                <div class="btn-2">
+                    <button class="btn-two">MAP</button>
+                </div>
+                <div class="btn-3">
+                    <button class="btn-three">LIST</button>
+                </div>
+            </div>
+                <!-- CONTENTS -->
+                <div class="btn-contents">
+                    <div class="btn-p btn1-p">
+                        <div class="chatbox__support">
+                            <div class="chatbox__header">
+                                <!-- <div class="chatbox__image--header">
+                                     <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                                </div> -->
+                                <div class="chatbox__content--header">
+                                    <h4 class="chatbox__heading--header">Chat Support</h4>
+                         <marquee behavior="" direction=""><p class="chatbox__description--header">Hi. Ny name is Sam. How can I help you?</p></marquee>     
+                                </div>
+                            </div>
+                            <div class="chatbox__messages">
+                                <div></div>
+                            </div>
+                            <div class="chatbox__footer">
+                                <input type="text" placeholder="Write a message...">
+                                <button class="chatbox__send--footer send__button">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- CONTENTS TWO -->
+                    <div class="btn-p btn2-p">
+                        <div class="mapbox">
+                            <div class="chatbox__header">
+                                <!-- <div class="chatbox__image--header">
+                                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                                </div> -->
+                                <div class="chatbox__content--header">
+                                    <h4 class="chatbox__heading--header">EKSU Map</h4>
+                                    <!-- <p class="chatbox__description--header">Please use the keyword '(direction to') to find where you are going to.</p> -->
+                                </div>
+                            </div>
+                            <div id="map_messages"></div>
+    
+                            <div class="chatbox__footer mapbox__footer">
+                                <input type="text" id="map_input" placeholder="Type your message..." autofocus>
+                                <button class="chatbox__send--footer send__button  map__button">Send</button>
+                            </div> 
+                        </div>
+                    </div>
+    
+                    <!-- CONTENTS THREE -->
+                    <div class="btn-p btn3-p">
+                        <div class="slider-container">
+                            <div class="slider">
+                                <img src="standalone-frontend/images/eksu.webp" alt="Main Gate">
+                                <div class="slider-description">
+                                    <h2>EKiti State University</h2>
+                                    <p>You are welcome to EKiti State University, Ado-Ekiti.</p>
+                                </div>
+                            </div>
+    
+                            <div class="slider">
+                                <img src="standalone-frontend/images/round_about.jpg" alt="School Round-About">
+                                <div class="slider-description">
+                                    <h2>Main Round-About</h2>
+                                    <!-- <p>This is the main roundabout that connects all routes in Ekiti State University from the school gate.</p> -->
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/auditorium.jpeg" alt="Main Auditorium">
+                                <div class="slider-description">
+                                    <h3>EKSU Main Auditorium</h3>
+                                    <!-- <p>The school's main auditorium has a capacity of 4000 seats for events like inaugural lectures, convocations, orientations, matriculations e.t.c</p> -->
+                                </div>
+                            </div>
+                            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/odua_hall.jpg" alt="Old Auditorium">
+                                <div class="slider-description">
+                                    <h3>Odua Hall </h3>
+                                    <!-- <p>The school's main auditorium has a capacity of 4000 seats for events like inaugural lectures, convocations, orientations, matriculations e.t.c</p> -->
+                                </div>
+                            </div>
+            
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/admin_building.jpg" alt="Admin Building">
+                                <div class="slider-description">
+                                    <h3>Lawrence Omolayo Administrative Building</h3>
+                                    <!-- <p>The administration building is a few metres away from the roundabout. All dealings with the administration of Ekiti State University are done here.</p> -->
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/glass_house.jpg" alt="Senate Building">
+                                <div class="slider-description">
+                                    <h3>EKSU Senate Building</h3>
+                                    <!-- <p>The school senate building is also called the Glass House, which powers the system of Ekiti State University, Ado-Ekiti</p> -->
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/eksu_library.jpg" alt="School Library">
+                                <div class="slider-description">
+                                    <h3>Ekiti State University Library</h3>
+                                    <!-- <p>The school"'s main library, named after Ifedayo Oladapo, has three sections for all courses with their faculty tags on it.</p> -->
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/academic_affairs.jpg" alt="Academic Affairs">
+                                <div class="slider-description">
+                                    <h3>Academic Affairs Building</h3>
+                                    <!-- <p>The signing of important documents takes place in this building.</p> -->
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/directorate_of_gst.jpg" alt="GST">
+                                <div class="slider-description">
+                                    <h3>Directorate of General Studies</h3>
+                                    <!-- <p>It houses general studies (GST) and part-time programmes (PTP)</p> -->
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/ict_center.jpg" alt="ICT">
+                                <div class="slider-description">
+                                    <h3>EKSU ICT Center</h3>
+                                    <!-- <p>The school's internet server and computer-based examination centre.</p> -->
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/sug_office.jpg" alt="SUG">
+                                <div class="slider-description">
+                                    <h3>Kingsley Kuku SUG Building</h3>
+                                    <!-- <p>EKSU students union government office.</p> -->
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/post_gra.jpeg" alt="Post Graduate School">
+                                <div class="slider-description">
+                                    <h3>Post Graduate School</h3>
+                                    <!-- <p>The school for master's and Ph.D students.</p> -->
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/med_lib.jpeg" alt="Medical Library">
+                                <div class="slider-description">
+                                    <h3>Medical Library</h3>
+                                    <!-- <p>A sub-library of the main library for the college of medicine students.</p> -->
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/alumni_centre.jpg" alt="Alumni Center">
+                                <div class="slider-description">
+                                    <h3>Kole Ajayi Building, Alumni Centre</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/central_mosque.jpg" alt="Mosque">
+                                <div class="slider-description">
+                                    <h3>EKSU Central Mosque</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/eng_fac.jpeg" alt="Faculty of Eng">
+                                <div class="slider-description">
+                                    <h3>Faculty of Engineering</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/faculty_of_agric.jpg" alt="Faculty of Agric">
+                                <div class="slider-description">
+                                    <h3>Faculty of Agricultural Sciences</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/faculty of science.jpg" alt="Faculty of Science">
+                                <div class="slider-description">
+                                    <h3>Faculty of Science</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/faculty_of_education.jpg" alt="Faculty of Education">
+                                <div class="slider-description">
+                                    <h3>Faculty of Education</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/faculty_of_social_sciences.jpg" alt="Faculty of Social Sciences">
+                                <div class="slider-description">
+                                    <h3>Faculty of Social Sciences</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/faculty_of_law.jpg" alt="Faculty of Law">
+                                <div class="slider-description">
+                                    <h3>Faculty of Law</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/faculty_of_management_sciences.jpg" alt="Faculty of Management Sciences">
+                                <div class="slider-description">
+                                    <h3>Faculty of Management Sciences</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/faculty_of_arts.jpeg" alt="Faculty of Arts">
+                                <div class="slider-description">
+                                    <h3>Faculty of Arts</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="slider">
+                                <img src="standalone-frontend/images/department_of_anatomy.jpeg" alt="Anatomy">
+                                <div class="slider-description">
+                                    <h3>Department of Anatomy, College of Medicine</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/department_of_physiology.jpeg" alt="Physiology">
+                                <div class="slider-description">
+                                    <h3>Department of Physiology, College of Medicine</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/department_of_tma.jpg" alt="TMA">
+                                <div class="slider-description">
+                                    <h3>Department of Theatre and Media Arts, Faculty of Arts</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/3000lt.jpg" alt="3000 seaters">
+                                <div class="slider-description">
+                                    <h3>3000 Seaters Lecture Theatre</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/1050lt.png" alt="1050 seaters">
+                                <div class="slider-description">
+                                    <h3>1050 Seaters Lecture Theatre</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/goodluck ebele lt.jpg" alt="image 6">
+                                <div class="slider-description">
+                                    <h3>Goodluck Ebele lecture Theatre</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/750lt.jpg" alt="750lt">
+                                <div class="slider-description">
+                                    <h3>750 Seaters Lecture Theatre</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/ile_eye.jpg" alt="Ile Eye">
+                                <div class="slider-description">
+                                    <h3>Ile-Eye lecture Theatre</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/ptplt7.jpg" alt="image ptp7">
+                                <div class="slider-description">
+                                    <h3>PTP Lecture Theatre 7</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/twin_hall_arts.jpg" alt="Twin Hall Arts">
+                                <div class="slider-description">
+                                    <h3>Arts Twin Hall Lecture Theatre</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/twin_hall_social_sciences.jpg" alt="twin hall social siences">
+                                <div class="slider-description">
+                                    <h3>Social Sciences Twin Hall Lecture Theatre</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+                            <div class="slider">
+                                <img src="standalone-frontend/images/twin_hall.jpg" alt="twin hall">
+                                <div class="slider-description">
+                                    <h3>Education Twin Hall Lecture Theatre</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+            
+    
+                        </div>
+                        <div class="loader"></div>
+                    </div>  
+    
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+            </div> 
+        </div>
+                
+
+
+
+
+
+    </section>
+
+        <!-- Footer -->
+    <footer class="first-index">
+        <div class="first-content">
+            <img src="./Images/newllogo.png" alt="">
+            <p class="muted-text"> Address P.M.B 5363 Ado-Ekiti, Ekiti State</p>
+            <div class="footer-contact">
+                <i class="fa-solid fa-phone danger"></i> <span class="muted-text"> +234 803 462 0164</span> <br>
+                <i class="fa-solid fa-envelope danger"></i> <span class="muted-text">portals.helpdesk@eksu.edu.ng</span> <br>
+                <i class="fa-solid fa-earth-africa danger"></i><span class="muted-text">eksuportal.eksu.edu.ng</span>
+            </div>
+            <div class="social-media-icon">
+                <i class="fa-brands fa-facebook muted-text"></i>
+                <i class="fa-brands fa-twitter muted-text"></i>
+                <i class="fa-brands fa-vk muted-text"></i>
+                <i class="fa-brands fa-instagram muted-text"></i>
+                <i class="fa-brands fa-google-plus muted-text"></i>
+            </div>
+        </div>
+        <div class="second-content">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="" class="muted-text">Home Page</a></li><hr class="muted-text">
+                <li><a href="" class="muted-text">Student Login</a></li> <hr class="muted-text">
+                <li><a href="" class="muted-text">Staff Login</a></li> <hr class="muted-text">
+                <li><a href="" class="muted-text">Admission</a></li> <hr class="muted-text">
+                <li><a href="" class="muted-text">Check Admission Status</a></li> <hr class="muted-text">
+            </ul>
+        </div>
+        <div class="third-content">
+            <h3>Other Links</h3>
+            <ul>
+                <li><a href="" class="muted-text">EKSU Website</a></li>
+                <li><a href="" class="muted-text">Admission Requirments</a></li>
+                <li><a href="" class="muted-text">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="fourth-content">
+            <h3>Opening Hours</h3>
+            <span class="muted-text">Mon- sun  <span class="muted-text">12:00am - 11:59pm</span></span> 
+        </div>
+    </footer>
+
+    <div class="last-index">
+        <h4>Powered by University ICT</h4>
+        <div class="last-links">
+            <ul>
+                <li><a href="" class="muted-text">FAQ  |</a></li>
+                <li><a href="" class="muted-text"> Help Desk |</a></li>
+                <li><a href="" class="muted-text">Support</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script src="eksu.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
